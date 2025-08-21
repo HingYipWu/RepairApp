@@ -70,7 +70,7 @@ function Battery({ t, onClick }: { t: number; onClick: () => void }) {
     </mesh>
   );
 }
-A
+
 function Fan({ t, onClick }: { t: number; onClick: () => void }) {
   const k = smoothPhase(t, 0.8, 1.0);
   const y = 0.3 + k * 1.6;
